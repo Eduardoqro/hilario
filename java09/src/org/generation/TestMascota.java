@@ -24,7 +24,7 @@ public class TestMascota {
 		
 		//System.out.println("La mascota de Fer se llama: "+hilario.name);
 		//System.out.println("===========================================");
-		
+	
 		System.out.println("N. De mascotas: "+ Mascota.numPets);
 		System.out.println("===========================================");
 		Mascota hilario = new Mascota("Hilario",1,30);
@@ -35,7 +35,15 @@ public class TestMascota {
 		System.out.println("La mascota de Fer se llama: "+hilario.information());
 		System.out.println("La mascota de Guadalupe se llama: "+periquita.information());
 
-		
+		System.out.println("===========================================");
+		//para construtores 
+		Mascota alf = new Mascota();//instancias pero sin datos de inicio
+		System.out.println("Las casi mascota de Anahi es "+alf.information());
+		System.out.println("N. De mascotas: "+ Mascota.numPets);
+		System.out.println("===========================================");
+		Mascota tommy =new Mascota("Tommy");
+		System.out.println("Las mascota de Lalo es "+ tommy.information());
+		System.out.println("N. De mascotas: "+ Mascota.numPets);
 		
 	}
 
