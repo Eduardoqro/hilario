@@ -54,7 +54,7 @@ public class Tacos {
 				this();//HACI podemos llamar a otro constructor y solo los construcores pueden invocar un solo constructor//Este es el cosntructor vacio
 				this.name=name;
 				this.numeroDeTacos=numeroDeTacos;
-	}
+	} 
 	//Métodos de la clase 1
 	String orden() {
 		return 
@@ -63,15 +63,14 @@ public class Tacos {
 				" , numero de tacos: "+this.numeroDeTacos+
 				" ,con cebolla(true/false): "+this.conCebolla;
 				
-	}
-	//Métodos de la clase 2
+	} 
+	//Métodos de la clase 2 //para constructor vacio
 		String ordenPorDefault() {
 			return 
 					"Tipo de taco: " +this.name+
 					" ,cantidad de salsa: "+this.cantidadDeSalsa+
 					" , numero de tacos: "+this.numeroDeTacos+
 					" ,con cebolla(true/false): "+this.conCebolla;
-					
 		}
 	
 }
