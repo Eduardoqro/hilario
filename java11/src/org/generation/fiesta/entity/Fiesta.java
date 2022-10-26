@@ -24,6 +24,6 @@ public interface Fiesta {
 	String parquearseBotanas();
 	String comprarBedidas();
 	String terminarFiesta();
-	
+	String resumenFiesta();
 
 }
